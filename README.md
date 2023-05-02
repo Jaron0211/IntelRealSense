@@ -1,3 +1,7 @@
+# Usage:
+change output freq. ro 15Hz:
+roslaunch realsense2_camera rs_camera.launch output_frequency:=15 
+
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series SR300 camera and T265 Tracking Module) with ROS.
 
