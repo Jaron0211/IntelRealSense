@@ -3,7 +3,7 @@ This repo is the fork version of origin intelrealsense ros bridge, adding the ab
 
 ### Usage
 to change the output frequency to 15Hz:
- ``` roslaunch realsense2_camera rs_camera.launch output_frequency:=15 ```
+`roslaunch realsense2_camera rs_camera.launch output_frequency:=15`
 It's also work for rs_t265.launch
 
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
