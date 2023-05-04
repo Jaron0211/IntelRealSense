@@ -1,6 +1,10 @@
-# Usage:
-change output freq. ro 15Hz:
-roslaunch realsense2_camera rs_camera.launch output_frequency:=15 
+# Introducion
+This repo is the fork version of origin intelrealsense ros bridge, adding the ability to change the output frequency.
+
+### Usage
+to change the output frequency to 15Hz:
+- #### roslaunch realsense2_camera rs_camera.launch output_frequency:=15
+It's also work for rs_t265.launch
 
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series SR300 camera and T265 Tracking Module) with ROS.
